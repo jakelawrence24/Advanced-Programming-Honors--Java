@@ -1,0 +1,43 @@
+/*
+ * File: Lab6Lawrence.java
+ * -----------------------
+ * Author: Jaka Lawrence
+ * Date: October 26, 2015
+ * 
+ * I recieved help from:
+ * no one
+ */
+
+/*
+ * This class takes a name(string) and produces the gangsta name
+ */
+
+import java.util.*;
+
+public class Lab6Lawrence{
+    //takes input and calls compton
+    public static void main(String[] args){
+        //initializes scanner
+        Scanner input = new Scanner(System.in);
+        
+        String name, gname;
+        
+        System.out.print("Type your name, playa.");
+        name = Scanner.nextLine;
+        
+        gname = compton(name);
+        System.out.print("Your gangsta name is \"" + gname + "\"");
+    }
+    
+    public static String compton(String name){
+        String gname, gfname,gmname,glname;
+        gfname = (name.substring(0,1)) + ". Diddy";
+        gmname =(name.substring(name.indexOf(" "), (name.length() - 1))).toUppercase();
+        glname = name.substring(0, name.indexOf(" ")) + "-izzle";
+        
+        gname = gfname + gmname + glname;
+        return gname;
+    }
+}
+        
+        

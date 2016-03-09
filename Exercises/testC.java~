@@ -1,0 +1,5 @@
+public class testC{
+  public static void main(String[] args){
+    System.out.print("S" + 95);
+  }
+}

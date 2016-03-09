@@ -1,0 +1,10 @@
+public class abc{
+    public static void main(String[] args){
+        printStrings("abc", 5);
+    }
+    public static void printStrings(String s, int t){
+        for(int i = 1; i <= t; i++){
+            System.out.print(s);
+        }
+    }
+}

@@ -1,0 +1,10 @@
+public class te{
+  public static void main(String[] args){
+    
+    limit = 50;
+    
+    for (int i = 1; i <= limit; i++){
+      if (i % 2 == 0){
+        System.out.print(i);
+      }
+    }

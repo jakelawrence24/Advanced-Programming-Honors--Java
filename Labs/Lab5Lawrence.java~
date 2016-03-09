@@ -1,0 +1,35 @@
+/*File Name: Lab5Lawrence.java
+ * ---------------------------
+ * Author: Jake Lawrence
+ * Date: October 14, 2015
+ * 
+ * I recieved help from:
+ * no one
+ */
+
+/*
+ * This class produces the powers of 2 to a maximum exponent
+ */
+
+public class Lab5Lawrence{
+    //driver for the class
+    public static void main(String[] args){
+        printPowersOf2(3);
+        printPowersOf2(10);
+    }
+    //prints the powers of two to the consumed variable p
+    public static void printPowersOf2(int p){
+        int x = 1;
+        //prints 1
+        System.out.print(x + " ");
+        //prints powers of two and exponentially increases x
+        for(int i = 1; i <= p; i++){
+            x*=2;
+            System.out.print(x + " ");
+        }
+        System.out.println();
+    }
+}
+                
+                
+        
